@@ -1,7 +1,8 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Returns a list that contains setters and getters for the data
+## and the cached inverted-matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -19,7 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Returns cached inverted-matrix if the matrix is in the cache
+## otherwise, invert matrix and cache the inverted matrix
 
 cacheSolve <- function(x, ...) {
   m <- x$getmatrix()
