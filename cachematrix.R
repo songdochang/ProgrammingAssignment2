@@ -1,6 +1,7 @@
 
-## Returns a list that contains setters and getters
-## for the data and the cached matrix
+
+## Returns a list that contains setters and getters 
+## for the data and the inverted-matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
