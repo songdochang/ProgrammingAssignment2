@@ -1,5 +1,3 @@
-
-
 ## Returns a list that contains setters and getters 
 ## for the data and the inverted-matrix
 
@@ -19,8 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Returns cached inverse matrix from cache if it exists
-## otherwise, invert matrix and cache the matrix
+## Returns inverse matrix from cache if it exists.
+## Otherwise, inverts matrix, caches the matrix and returns it
 
 cacheSolve <- function(x, ...) {
   m <- x$getmatrix()
